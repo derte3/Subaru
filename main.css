@@ -1,0 +1,79 @@
+body{
+            font-size: 16px;
+            font-family: "Segoe UI", Segoe UI;
+            color: black;
+            padding-left: 6px;
+            background-color:#0554a6;
+        }
+.logo{
+            text-align:center;
+        }
+ul{
+           
+           vertical-align: super;
+        }
+
+a{
+            text-decoration: none;
+            background-color: skyblue;
+            color:darkblue;
+            
+        }
+a:hover{
+    color:red;
+}
+a:visited{
+    color:darkred;
+}
+button{
+    border-radius:0px;
+    background-color:slategrey;
+    border-color:darkslateblue;
+    width:auto;
+    height:10%;
+    font-size: 14px  
+}
+.but{
+    background-color:inherit    ;
+
+}
+.listcars img{
+            width:250px;
+            display: grid;
+            
+}
+.listcars{
+            display: grid; 
+            grid-template-columns: repeat(5,1fr);
+            grid-template-rows: auto;
+            width:100%;
+             
+
+           
+}
+.listcars article{
+            border:dashed skyblue;
+            width:250px;
+            
+            margin-bottom:4px;
+            border-radius:7px;
+}
+.listcars p{
+            text-align: center;
+            
+            
+}
+.listcars a{
+    text-align:center;
+    align-items:center;
+    align-content:center;
+}
+.listcars span{
+    background-color:skyblue;
+    margin:0px;
+    text-align:center;
+    align-self:center;
+}
+.badges{
+     list-style-image: url("icon24.png");
+}
