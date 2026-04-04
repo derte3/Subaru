@@ -4,9 +4,21 @@ body{
             color: black;
             padding-left: 6px;
             background-color:#0554a6;
+            margin-top:0px;
+            margin-right:0px;
         }
+header{
+    background-color:#075EBA;
+    margin:0px;
+    width:100%;
+    height:50px;
+    padding-left:5px;
+    align-content:space-around;
+
+}
+
 .logo{
-            text-align:center;
+            
         }
 ul{
            
@@ -27,11 +39,14 @@ a:visited{
 }
 button{
     border-radius:0px;
-    background-color:slategrey;
-    border-color:darkslateblue;
+    background-color:#0464C7;
+    <!-- border-color:darkslateblue; -->
     width:auto;
-    height:10%;
-    font-size: 14px  
+    height:95%;
+    border:none;
+    font-size: 14px;
+    padding:2px;
+
 }
 .but{
     background-color:inherit    ;
@@ -76,4 +91,7 @@ button{
 }
 .badges{
      list-style-image: url("icon24.png");
+}
+.badges .toyota{
+    list-style-image: url("icontoyo24.png")
 }
