@@ -115,3 +115,33 @@ button{
 .badges .toyota{
     list-style-image: url("icontoyo24.png")
 }
+.randcar{
+    position: relative;
+    left: 70%;
+   
+    align-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+.randcar img{
+    height: 25px;
+    margin: 0px;
+}
+.randcar div{
+    margin:0px;
+    align-items:stretch;
+}
+.randcar button{
+    position: relative;
+    top: 50%;
+    height: 47.5px;
+}
+.randimg{
+    height: 50px;
+    
+    margin-left:245px;
+   
+    position: relative;
+   
+    padding: 0px;
+}
