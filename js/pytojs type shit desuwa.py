@@ -15,4 +15,4 @@ ln = len(ms)
 print(ln)
 
 for i in range(ln):
-    print(str(i + 1) + ":",'{car:"'+msnam[i]+'",img:"'+ms[i]+'",a:"../Cars/'+msnam[i]+'/index.html"},')
+    print('{car:"'+msnam[i]+'",img:"../Subaru/js/randimg/'+ms[i]+'",a:"../Subaru/Cars/'+msnam[i]+'/index.html"},')
