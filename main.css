@@ -72,6 +72,7 @@ button{
     top:16%;
     position: relative;
 }
+
 .listcars img{
             width:225px;
             display: grid;
@@ -82,7 +83,7 @@ button{
             grid-template-columns: repeat(5,1fr);
             grid-template-rows: auto;
             width:100%;
-             
+            padding:28px; 
 
            
 }
@@ -102,6 +103,7 @@ button{
     text-align:center;
     align-items:center;
     align-content:center;
+
 }
 .listcars span{
     background-color:skyblue;
@@ -144,4 +146,9 @@ button{
     position: relative;
    
     padding: 0px;
+}
+.insimg{
+    border: solid white 7px;
+    margin:2px;
+
 }

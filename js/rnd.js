@@ -31,14 +31,22 @@ const carlist = [
 { car: "Vivio", img: "../Subaru/js/randimg/Vivio.jpg", a: "../Subaru/Cars/Vivio/index.html" },
 { car: "XT", img: "../Subaru/js/randimg/XT.jpg", a: "../Subaru/Cars/XT/index.html" },
 { car: "XV", img: "../Subaru/js/randimg/XV.jpg", a: "../Subaru/Cars/XV/index.html" }
-
 ]
 let len = carlist.length
-let rand = Math.floor(Math.random() * carlist.length) ;
-let rand2 = Number(rand)
-
-console.log(rand2)
-
-document.getElementById("randa").href = carlist[rand2].a
-document.getElementById("randimg").src = carlist[rand2].img
-document.getElementById("randnam").textContent = carlist[rand2].car
+insobj = document.getElementById("ins")
+for (let i = 0; i < len; i++){
+    let rand = funcrand(0,carlist.length)  ;
+    let rand2 = Number(rand);
+    console.log(rand2);
+    let rot = funcrand(-20,20);
+    const img2 = document.createElement("img");
+    img2.src = carlist[rand2].img;
+    img2.className = "insimg";
+    img2.width = funcrand(50,850);
+    img2.style.x = funcrand(-100,100);
+    img2.style.y = funcrand(-100,100);;
+    img2.style.rotate = rot + "deg"
+    
+    insobj.appendChild(img2);
+    carlist.splice(rand2,1);
+};
