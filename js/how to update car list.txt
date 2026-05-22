@@ -1,0 +1,4 @@
+1. open tablehelper
+2. open pytojs type shit desuwa  (im so good with names)
+3. copy the js table from step 2
+4. paste the table in place of older table in carlist

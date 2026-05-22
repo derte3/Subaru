@@ -14,5 +14,11 @@ print(msnam)
 ln = len(ms)
 print(ln)
 
+print("const carlist = [")
 for i in range(ln):
-    print('{car:"'+msnam[i]+'",img:"../Subaru/js/randimg/'+ms[i]+'",a:"../Subaru/Cars/'+msnam[i]+'/index.html"},')
+    if i + 1== ln:
+        print('{car:"'+msnam[i]+'",img:"../Subaru/js/randimg/'+ms[i]+'",a:"../Subaru/Cars/'+msnam[i]+'/index.html"}')
+    else:
+        print('{car:"'+msnam[i]+'",img:"../Subaru/js/randimg/'+ms[i]+'",a:"../Subaru/Cars/'+msnam[i]+'/index.html"},')
+print("];")
+exitprmt = input("input to continue")

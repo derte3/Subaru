@@ -32,8 +32,10 @@ const carlist = [
 { car: "XT", img: "../Subaru/js/randimg/XT.jpg", a: "../Subaru/Cars/XT/index.html" },
 { car: "XV", img: "../Subaru/js/randimg/XV.jpg", a: "../Subaru/Cars/XV/index.html" }
 ]
-let len = carlist.length
-insobj = document.getElementById("ins")
+let r = 0;
+let len = carlist.length;
+insobj = document.getElementById("ins");
+countobj = document.getElementById("cnt");
 for (let i = 0; i < len; i++){
     let rand = funcrand(0,carlist.length)  ;
     let rand2 = Number(rand);
@@ -49,4 +51,6 @@ for (let i = 0; i < len; i++){
     
     insobj.appendChild(img2);
     carlist.splice(rand2,1);
+    r++
 };
+countobj.textContent = r;

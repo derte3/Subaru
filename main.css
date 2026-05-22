@@ -152,3 +152,7 @@ button{
     margin:2px;
 
 }
+
+.point{
+    image-rendering: pixelated;
+}
