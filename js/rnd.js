@@ -36,7 +36,7 @@ let r = 0;
 let len = carlist.length;
 insobj = document.getElementById("ins");
 countobj = document.getElementById("cnt");
-for (let i = 0; i < len; i++){
+for (let i = 0; i < 32; i++){
     let rand = funcrand(0,carlist.length)  ;
     let rand2 = Number(rand);
     console.log(rand2);
