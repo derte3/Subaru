@@ -7,6 +7,10 @@ body{
             margin-top:0px;
             margin-right:0px;
             margin-left:0px;
+            background-image: url("bg1.png");
+
+            background-size: 64px;
+    
             
         }
 header{
@@ -84,13 +88,13 @@ button{
             grid-template-rows: auto;
             width:100%;
             padding:28px; 
-
+            
            
 }
 .listcars article{
             border:dashed skyblue;
             width:225px;
-            
+            background-color:#0554a6;
             margin-bottom:4px;
             border-radius:7px;
 }
@@ -155,4 +159,8 @@ button{
 
 .point{
     image-rendering: pixelated;
+}
+p{
+    background-color:rgba(5, 84, 166, 0.4);
+    
 }
